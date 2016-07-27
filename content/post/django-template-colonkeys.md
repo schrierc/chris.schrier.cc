@@ -21,7 +21,7 @@ Exception Value: Could not parse the remainder: ':foo' from 'mydict.data:foo'
 
 The simple fix is to change the key but I don't own this object and it cannot
 be easily changed. I devised a simple "fix" after a little browsing and
-experimentation: use a forloop.
+experimentation: use a for loop.
 
 ```
 {% for k, v in mydict.items %}
