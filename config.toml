@@ -1,0 +1,27 @@
+baseurl = "https://chris.schrier.cc/"
+languageCode = "en-us"
+title = "schrierc"
+theme="blackburn"
+
+[author]
+  name = "Chris Schrier"
+
+[params]
+  googleAnalytics="UA-73991715-1"
+  disqus = "schrierc"
+
+[social]
+  twitter = "schrierc"
+  facebook = "schrierc"
+  instagram = "schrierc"
+  github = "schrierc"
+  keybase = "schrierc"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
