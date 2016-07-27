@@ -12,7 +12,7 @@ Earlier this week I was updating a dashboard which uses Django templates. The
 data included a Python dictionary with a key that contains a colon: `data:foo`.
 
 Normally the dictionary item is accessed using dotted notation such as
-`{{ mydict.foo }}`) but using a colon results in a syntax error.
+`{{ mydict.foo }}` but using a colon results in a syntax error.
 
 ```
 Exception Type: TemplateSyntaxError
